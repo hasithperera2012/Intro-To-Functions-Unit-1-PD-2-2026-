@@ -64,13 +64,14 @@ t.speed(10000)
 #     t.forward(200)
 #     t.left(95)
 
+
 sidelength = 100
-rotate = 90
+rotate = 110
 def square(x,y):
-    for i in range(100):
+    for i in range(5):
         t.forward(x)
         t.left(y)
-square(101,91)
+square(100,36)
 
 # def doubleSquares(iRange):
 #     length = 25
@@ -83,7 +84,19 @@ def addSquares(iRange):
     length = 25
     for i in range(iRange):
         square(length, 90)
-        length += 25
-addSquares(5)
+        length += 67
+addSquares(1000)
+
+# def star(x,y):
+#     for i in range(100):
+#         t.forward(x)
+#         t.left(y)
+# star(110,145)
+
+# def addStars(iRange):
+#     lenght = 25
+#     for i in range(iRange):
+#         star((lenght + 1, 100))
+# addStars(100000)
 
 turtle.done
