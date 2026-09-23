@@ -74,15 +74,6 @@ t.speed(10000)
 
 # square(100,90)
 
-lenght = 5
-for i in range(60):
-    lenght += 5
-    for i in range(4):
-        t.forward(lenght)
-        t.right(90)
-    t.left(5)
-
-
 # def doubleSquares(iRange):
 #     length = 25
 #     for i in range(iRange):
@@ -110,6 +101,21 @@ for i in range(60):
 #         star((lenght + 1, 100))
 # addStars(100000)
 
+# lenght = 5
+# for i in range(60):
+#     lenght += 5
+#     for i in range(4):
+#         t.forward(lenght)
+#         t.right(90)
+#     t.left(5)
+
+lenght = 5
+for i in range(60):
+    lenght += 5
+    for i in range(5):
+        t.forward(lenght)
+        t.right(144)
+    t.left(5)
 
 
 turtle.done
