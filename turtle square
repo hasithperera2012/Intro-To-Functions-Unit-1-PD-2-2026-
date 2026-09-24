@@ -1,15 +1,22 @@
-import turtle
-from turtle import *
-t=Turtle()
+# String for characters
+name = "Inaya"
+# input asks the user aquestion and records the answer
+# what we write in input argument is whatuser sees
+# input ALWAYS outputs a string
+bill = input("Howmuch was the bill")
+print(bill)
 
-t.shape('turtle')
-t.speed(10)
-t.forward(300)
-t.left(90)
-t.forward(300)
-t.left(90)
-t.forward(300)
-t.left(90)
-t.forward(300)
+if bill == 10
+    print("Match")
 
-turtle.done()
+else:
+    print("no match")
+
+# inter for whoe number
+# amt=100
+# Float uses decimal
+# amt_two=99.99
+
+# Boolean
+x = True
+y = False
